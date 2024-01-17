@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    gap: 20px;
+    background: url(vitc.jpg);
+    background-size: cover;
+    
+    font-weight: bolder;
+    
+    padding: 500px 100px 30px;
+    
+}
+
+.button {
+    width: 100px;
+    margin: auto;
+}
+
+.name,
+.email,
+.tel,
+.an,
+.ab,
+.ein,
+.dop,
+.su {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 24px;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formular 2</title>
+</head>
+<body>
+    <form id="buchung" action="#" method="POST">
+        
+        <p>Buchen Sie jetzt!</p>
+        
+
+            <div class="name">
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required>
+            </div>
+            <div class="email">
+                
+                <label for="email">E-Mail-Adresse:</label>
+                <input type="email" id="email" name="E-Mail-Adresse" placeholder="example@example.com" required>
+            </div>
+            <div class="tel">
+                
+                <label for="telefonnummer">Telefonnummer:</label>
+                <input type="tel" id="telefonnummer" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="an">
+                
+                <label for="anreisen">Anreisedatum:</label>
+                <input type="date" id="anreisen" >
+            </div>
+            <div class="ab">
+                
+                
+                <label for="abreisen">Abreisen:</label>
+                <input type="date" id="abreisen">
+            </div>
+            <div class="ein">
+                
+                
+                <label for="einzel">Einzelzimmer:</label>
+                <input type="radio" name="einzelzimmer" id="einzel" value="Einzelzimmer" >
+            </div>
+            <div class="dop">
+                
+                
+                <label for="doppel">Doppelzimmer:</label>
+                <input type="radio" name="doppelzimmer" id="doppel" value="Doppelzimmer">
+            </div>
+            <div class="su">
+                
+                
+                <label for="suite">Suite:</label>
+                <input type="radio" name="suite" id="suite" value="Suite" >
+            </div>
+            <div class="button">
+                
+                <button>Jetzt buchen</button>
+            </div>
+            
+        
+    </form>
+</body>
+</html>
